@@ -1,0 +1,1466 @@
+{
+    "detail": [
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "1.24",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "100.0",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "H:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "3.95",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "13.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "D:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "35.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:H"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "40.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:D"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "1.98",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "65.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "H:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "3.60",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "5.15",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "15.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "D:A"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "30.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:H"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "22.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:D"
+            }
+        ],
+        [
+            {
+                "code": "HAFU",
+                "odds": "70.00",
+                "poolId": 1075271,
+                "matchId": 1016188,
+                "goalLine": "",
+                "combination": "A:A"
+            },
+            {
+                "code": "HAFU",
+                "odds": "14.00",
+                "poolId": 1075263,
+                "matchId": 1016189,
+                "goalLine": "",
+                "combination": "A:A"
+            }
+        ]
+    ],
+    "match_ids": [
+        1016188,
+        1016189
+    ]
+}
