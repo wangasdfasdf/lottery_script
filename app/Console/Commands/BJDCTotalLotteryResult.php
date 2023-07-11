@@ -26,15 +26,15 @@ class BJDCTotalLotteryResult extends Command
      */
     protected $description = '北京单场';
 
-    protected string $gameinfo_his = "http://www.bjlot.com/ssm/@type/html/gameinfo_his.txt";
-    protected string $parlayGetGame = "http://www.bjlot.com/data/@typeParlayGetGame_@draw.xml";
+    protected string $gameinfo_his = "https://www.bjlot.com/ssm/@type/html/gameinfo_his.txt";
+    protected string $parlayGetGame = "https://www.bjlot.com/data/@typeParlayGetGame_@draw.xml";
 
     protected array $types = ['200', '250', '230', '240', '210', '270'];
     //历史开奖url
-    protected string $historyUrl = "http://www.bjlot.com/data/@type/draw/@year/@awardPeriod.js";
-    protected string $historyYearUrl = "http://www.bjlot.com/data/@type/control/drawyearlist.js";
-    protected string $historyMonthUrl = "http://www.bjlot.com/data/@type/control/@year.js";
-    protected string $historyLastAwardPeriodUrl = "http://www.bjlot.com/data/@type/control/drawnolist_@year@month.js";
+    protected string $historyUrl = "https://www.bjlot.com/data/@type/draw/@year/@awardPeriod.js";
+    protected string $historyYearUrl = "https://www.bjlot.com/data/@type/control/drawyearlist.js";
+    protected string $historyMonthUrl = "https://www.bjlot.com/data/@type/control/@year.js";
+    protected string $historyLastAwardPeriodUrl = "https://www.bjlot.com/data/@type/control/drawnolist_@year@month.js";
 
     /**
      * Execute the console command.
@@ -152,6 +152,7 @@ class BJDCTotalLotteryResult extends Command
         $result = Http::get($url, [
             'dt' => $this->getFormatDate(),
         ]);
+
 
         $result = \json_decode(\trim($result->body(), 'jsonString='), true);
         return \max(\array_column($result['drawyears'], 'year'));
