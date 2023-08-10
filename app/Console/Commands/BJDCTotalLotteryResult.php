@@ -80,7 +80,7 @@ class BJDCTotalLotteryResult extends Command
                 continue;
             }
 
-            $result = Http::get($url, [
+            $result = Http::withoutVerifying()->get($url, [
                 'dt' => $this->getFormatDate(),
             ]);
 
@@ -114,7 +114,7 @@ class BJDCTotalLotteryResult extends Command
             '@month' => $month,
         ]);
 
-        $result = Http::get($url, [
+        $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
         ]);
 
@@ -132,7 +132,7 @@ class BJDCTotalLotteryResult extends Command
             '@type' => $type,
         ]);
 
-        $result = Http::get($url, [
+        $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
         ]);
 
@@ -149,7 +149,7 @@ class BJDCTotalLotteryResult extends Command
             '@type' => $type,
         ]);
 
-        $result = Http::get($url, [
+        $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
         ]);
 
@@ -167,7 +167,7 @@ class BJDCTotalLotteryResult extends Command
         ]);
 
 
-        $result = Http::get($url, [
+        $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
             "_"  => $this->getMillisecond(),
         ]);
@@ -237,7 +237,7 @@ class BJDCTotalLotteryResult extends Command
             '@type' => $type,
         ]);
 
-        $result = Http::get($url, [
+        $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
             "_"  => $this->getMillisecond(),
         ]);
