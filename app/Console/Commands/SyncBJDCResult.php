@@ -37,14 +37,18 @@ class SyncBJDCResult extends Command
     public function handle()
     {
         Log::info('sync：start', ['==================================']);
-        $url = \config('project.sync_url') . '/bjdc';
+        $urls = \config('project.sync_url');
 
-        BjdcResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
+        foreach ($urls as $url){
+            $url = $url. '/bjdc';
+            BjdcResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
 
-            $this->sync($url, $matchResults);
+                $this->sync($url, $matchResults);
 
-        });
-        Log::info('sync：end', ['==================================']);
+            });
+            Log::info('sync：end', ['==================================']);
+        }
+
     }
 
     public function sync(string $url, Collection $matchResults)

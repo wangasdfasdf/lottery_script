@@ -37,27 +37,31 @@ class SyncPlsResult extends Command
      */
     public function handle()
     {
-        Log::info('sync：start', ['==================================']);
-        $url = \config('project.sync_url') . '/pls';
+        $urls = \config('project.sync_url');
 
-        PlsResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
+        foreach ($urls as $url) {
+            Log::info('sync：start', ['==================================']);
+            $url = $url . '/pls';
+            PlsResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
 
-            $this->sync($url, $matchResults);
+                $this->sync($url, $matchResults);
 
-        });
-        Log::info('sync：end', ['==================================']);
+            });
+            Log::info('sync：end', ['==================================']);
+        }
+
     }
 
     public function sync(string $url, Collection $matchResults)
     {
-        $ids  = $matchResults->pluck('id');
+        $ids = $matchResults->pluck('id');
         $data = $matchResults->makeHidden(['id', 'created_at', 'updated_at', 'deleted_at', 'sync'])->toArray();
 
-        $time  = \time();
+        $time = \time();
         $token = \md5(self::SALT . $time);
 
         $result = Http::connectTimeout(5)->timeout(3)->withHeaders([
-            'time'  => $time,
+            'time' => $time,
             'token' => $token,
         ])->post($url, $data);
 
@@ -69,9 +73,9 @@ class SyncPlsResult extends Command
         }
 
         Log::info('debug', [
-            'match'  => $ids,
+            'match' => $ids,
             'result' => $result,
-            'url'    => $url,
+            'url' => $url,
         ]);
     }
 }

@@ -36,13 +36,16 @@ class SyncMatchResult extends Command
     public function handle()
     {
         Log::info('sync：start', ['==================================']);
-        $url = \config('project.sync_url');
+        $urls = \config('project.sync_url');
 
-        MatchResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
+        foreach ($urls as $url){
 
-            $this->sync($url, $matchResults);
+            MatchResult::query()->where('sync', 0)->chunkById(50, function ($matchResults) use ($url) {
 
-        });
+                $this->sync($url, $matchResults);
+
+            });
+        }
         Log::info('sync：end', ['==================================']);
     }
 
