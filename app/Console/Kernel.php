@@ -24,9 +24,9 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command(InstallMatchResult::class)->cron("5,17,35 * * * *")->withoutOverlapping();
 
-        $schedule->command(SyncMatchResult::class)->everyMinute()->withoutOverlapping();
-        $schedule->command(SyncPlsResult::class)->everyMinute()->withoutOverlapping();
-        $schedule->command(SyncBJDCResult::class)->everyMinute()->withoutOverlapping();
+//        $schedule->command(SyncMatchResult::class)->everyMinute()->withoutOverlapping();
+//        $schedule->command(SyncPlsResult::class)->everyMinute()->withoutOverlapping();
+//        $schedule->command(SyncBJDCResult::class)->everyMinute()->withoutOverlapping();
         $schedule->command(PLSLotteryResult::class)->cron("35 * * * *")->withoutOverlapping();
 //        $schedule->command(BJDCLotteryResult::class)->cron("35 * * * *")->withoutOverlapping();
         $schedule->command(BJDCTotalLotteryResult::class)->cron("35 * * * *")->withoutOverlapping();
