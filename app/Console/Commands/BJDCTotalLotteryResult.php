@@ -65,13 +65,13 @@ class BJDCTotalLotteryResult extends Command
         $cacheKey = "bjdc:url:cache:@url";
         foreach ($this->types as $type) {
 
-            $year        = $this->historyYear($type);
-            $month       = $this->historyMonth($year, $type);
+            $year = $this->historyYear($type);
+            $month = $this->historyMonth($year, $type);
             $awardPeriod = $this->historyLastAwardPeriod($year, $month, $type);
 
             $url = \strtr($this->historyUrl, [
-                '@type'        => $type,
-                '@year'        => $year,
+                '@type' => $type,
+                '@year' => $year,
                 '@awardPeriod' => $awardPeriod,
             ]);
 
@@ -91,13 +91,13 @@ class BJDCTotalLotteryResult extends Command
             foreach ($drawresult as $item) {
                 BjdcResult::query()->firstOrCreate([
                     'award_period' => $awardPeriod,
-                    'matchno'      => $item['matchno'],
-                    'type'         => $type,
+                    'matchno' => $item['matchno'],
+                    'type' => $type,
                 ], [
-                    'result'   => $item['result'],
+                    'result' => $item['result'],
                     'sp_value' => $item['spvalue'],
-                    'results'  => $item,
-                    'sync'     => 0,
+                    'results' => $item,
+                    'sync' => 0,
                 ]);
             }
 
@@ -109,8 +109,8 @@ class BJDCTotalLotteryResult extends Command
     public function historyLastAwardPeriod(string $year, $month, string $type)
     {
         $url = \strtr($this->historyLastAwardPeriodUrl, [
-            '@year'  => $year,
-            '@type'  => $type,
+            '@year' => $year,
+            '@type' => $type,
             '@month' => $month,
         ]);
 
@@ -169,14 +169,14 @@ class BJDCTotalLotteryResult extends Command
 
         $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
-            "_"  => $this->getMillisecond(),
+            "_" => $this->getMillisecond(),
         ]);
 
         if ($result->status() != 200) {
             return;
         }
 
-        $xml  = \simplexml_load_string($result->body());
+        $xml = \simplexml_load_string($result->body());
         $json = \json_encode($xml);
 
         $arr = \json_decode($json, true);
@@ -196,7 +196,7 @@ class BJDCTotalLotteryResult extends Command
             foreach ($data['matchInfo'] as $item1) {
 
                 foreach ($item1['matchelem']['item'] as $item) {
-                    if (\is_array($item)){
+                    if (\is_array($item)) {
                         $this->parlayGetGameInstall($item, $type, $draw);
                     } else {
                         $this->parlayGetGameInstall($item1['matchelem']['item'], $type, $draw);
@@ -206,8 +206,6 @@ class BJDCTotalLotteryResult extends Command
 
             }
         }
-
-
     }
 
     public function parlayGetGameInstall(array $item, string $type, string $draw)
@@ -216,17 +214,22 @@ class BJDCTotalLotteryResult extends Command
             return;
         }
 
+        $temArr = array_filter(array_values($item['spitem']));
+        if (count($temArr) > 2){
+            return;
+        }
+
         list('sp_value' => $sp, 'key' => $key) = $this->formatSpItem($item['spitem'], $type);
 
         BjdcResult::query()->firstOrCreate([
             'award_period' => $draw,
-            'matchno'      => $item['no'],
-            'type'         => $type,
+            'matchno' => $item['no'],
+            'type' => $type,
         ], [
-            'result'   => $key,
+            'result' => $key,
             'sp_value' => $sp,
-            'results'  => $item,
-            'sync'     => 0,
+            'results' => $item,
+            'sync' => 0,
         ]);
     }
 
@@ -239,7 +242,7 @@ class BJDCTotalLotteryResult extends Command
 
         $result = Http::withoutVerifying()->get($url, [
             'dt' => $this->getFormatDate(),
-            "_"  => $this->getMillisecond(),
+            "_" => $this->getMillisecond(),
         ]);
 
 
@@ -271,15 +274,15 @@ class BJDCTotalLotteryResult extends Command
     {
         return [
             'sp10' => '胜其它',
-            'sp1'  => '1:0',
-            'sp2'  => '2:0',
-            'sp3'  => '2:1',
-            'sp4'  => '3:0',
-            'sp5'  => '3:1',
-            'sp6'  => '3:2',
-            'sp7'  => '4:0',
-            'sp8'  => '4:1',
-            'sp9'  => '4:2',
+            'sp1' => '1:0',
+            'sp2' => '2:0',
+            'sp3' => '2:1',
+            'sp4' => '3:0',
+            'sp5' => '3:1',
+            'sp6' => '3:2',
+            'sp7' => '4:0',
+            'sp8' => '4:1',
+            'sp9' => '4:2',
             'sp15' => '平其它',
             'sp11' => '0:0',
             'sp12' => '1:1',
@@ -350,11 +353,11 @@ class BJDCTotalLotteryResult extends Command
     public function formatSpItem(array $spItem, $type): array
     {
         $sp_value = min($spItem);
-        $key      = \trim(\array_search($sp_value, $spItem), '_v');
+        $key = \trim(\array_search($sp_value, $spItem), '_v');
 
-        $method   = 'format' . $type;
+        $method = 'format' . $type;
         $sp_value = \abs($sp_value);
-        $key      = $this->$method()[$key];
+        $key = $this->$method()[$key];
 
         if ($sp_value == 1) {
             $key = '*';
