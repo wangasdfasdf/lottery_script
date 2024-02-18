@@ -69,7 +69,7 @@ class InstallMatchResult extends Command
     {
         $result = Http::connectTimeout(4)->timeout(3)->get($this->football_list_url, [
             'matchPage'      => 1,
-            'matchBeginDate' => now()->subDays(2)->format('Y-m-d'),
+            'matchBeginDate' => now()->subDays(12)->format('Y-m-d'),
             'matchEndDate'   => now()->format('Y-m-d'),
             'leagueId'       => '',
             'pageSize'       => 30,
